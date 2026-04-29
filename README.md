@@ -1,26 +1,4 @@
-# Investigating Phishing Emails through CyberChef & VirusTotal
-
-## 1. Project Overview
-**Author: Rachael**
-
-[Content here]
-
----
-
-## 2. Project Relevance
-**Author: Rachael**
-
-[Content here]
-
----
-
-## 3. Methodology
-**Author: Team**
-
-### 3.1 Data Sample
-**Author: Rachael**
-
-[Content here]
+c
 
 ### 3.2 CyberChef
 **Author: Komali**
@@ -321,6 +299,6 @@ Domain scanning through VirusTotal provides critical information about hosting i
 ---
 
 ### ✒️ Authors
-- Rachael
+- Rachael Oyenola
 - David Matute-Jimenez
-- Komali
+- Komali Kollapudi
