@@ -3,14 +3,26 @@
 ## 1. Project Overview
 **Author: Rachael**
 
-[Content here]
+# Investigating Phishing Emails through CyberChef & VirusTotal
+ 
+## 1. Project Overview
+**Author: Rachael**
+ 
+Our project focuses on investigating a phishing email sample using tools such as CyberChef and VirusTotal. We will mimic a realistic incident response scenario in which a user receives a suspicious email, and our team investigates whether the email is malicious, decodes any hidden content, and extracts evidence. CyberChef and VirusTotal represent some of the skills IR analysts use daily, including decoding content and verifying threat intelligence. Our sample data comes from a public repository on GitHub that contains a collection of phishing samples.
+ 
+This capstone project relates to incident response because we will be following each stage of the IR lifecycle, as any IR team would. The investigation begins in the Preparation phase, where our group has selected tools such as CyberChef and VirusTotal that will be used in the next phases.
+ 
+In the Identification phase, with a sample email file taken from GitHub, our team will examine the sample email file for any suspicious content in the email headers, links, sender information, embedded content, etc. CyberChef will be used to decode any hidden content inside the email. Once the Indicators of Compromise (IOCs) have been identified, they will be sent to VirusTotal to verify whether they have been previously reported as malicious.
+This project will highlight the importance of proper investigation and documentation when investigating cybersecurity threats.
 
 ---
 
 ## 2. Project Relevance
 **Author: Rachael**
 
-[Content here]
+Phishing is one of the most common cyber threats organizations face, which is why knowing how to investigate it is a core skill for any security analyst. This project simulates a real-world incident response scenario by analyzing a phishing email sample taken from a public GitHub repository. Using tools such as CyberChef, VirusTotal, etc, we follow the stages of the incident response lifecycle to examine the email for suspicious characteristics, decode hidden or encoded content and verify any suspicious links or domains. By following the incident response lifecycle, we aim to demonstrate how analysts investigate indicators of compromise, analyze phishing techniques and document their findings. The goal is to provide insight into how security teams investigate and respond to phishing campaigns.
+ 
+The importance of this project, particularly as it relates to the field of cybersecurity, is that it demonstrates the practical use of real-world investigation tools while promoting safe analysis techniques. Our project helps reinforce cybersecurity awareness and prevention strategies by showing how phishing attacks are identified, analyzed, and documented. It also highlights the growing threat of phishing and emphasizes the role of human behavior in cybersecurity incidents, as users are often the primary targets of these attacks. Through this project, our team gains practical experience in threat investigation, identifying indicators of compromise, and understanding how organizations can better prevent phishing-related attacks
 
 ---
 
@@ -20,7 +32,15 @@
 ### 3.1 Data Sample
 **Author: Rachael**
 
-[Content here]
+[https://github.com/rf-peixoto/phishing_pot/tree/main/email](https://github.com/rf-peixoto/phishing_pot/tree/main/email)
+ 
+<img width="455" height="140" alt="image" src="https://github.com/user-attachments/assets/03d9ac45-b8c5-4027-b7f4-88b8ee841893" />
+ 
+Our project will focus on secondary data from a public GitHub repository that contains samples of phishing emails. This dataset includes realistic phishing emails with headers, embedded links, messages, and other artifacts that are commonly seen in actual phishing campaigns.
+ 
+Sample-1.eml is a GitHub phishing sample pretending to be from Brailizan Bank, telling its “recipient” their reward points are about to expire. We will use the dataset given and import the email samples into the analysis tools we will be using. First, we will review the email headers to detect spoofing or manipulation. Afterward, we will extract URL domains and any suspicious indicators for deeper investigation. Using the tools we selected, including VirusTotal, CyberChef, Wireshark, and PhishTool, we will analyze hidden content, investigate the attacker’s infrastructure, and analyze links. The dataset used will help us fully understand the investigation process and how the phishing campaign operates.
+
+---
 
 ### 3.2 CyberChef
 **Author: Komali**
